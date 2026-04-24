@@ -1,0 +1,34 @@
+Project Manager 
+
+The system that our team is creating is a lookup system for books using a website. It will be free to all users, and the way it works is the user will input a book
+or keyword they want to find, and from there it will add in the book name and how much it costs. The system will use the website that the user will input, using a 
+part of the book's name that the user will input. It will tell the user the full name of the book, along with the pricing of the book, and if it successfully 
+pulled up the book. If the system couldn’t pull up the book, it would give the user an error message, and the user would have the option to re-enter the 
+information that gave them the error.
+
+What the Program Needs
+Website link to scrape
+
+Input system for a book or a keyword in a book
+
+Add the book name and how much it would cost.
+
+Keyword or title of book
+
+Full name of book and price
+
+Error message if the code breaks
+Test Cases
+Regular Code
+Step 1: Start the program, enter “https://books.toscrape.com/” 
+Step 2: Entered the book called “A Light in the Attic”
+Step 3: The program came back with the title and the price of the book
+Step 4: The program asked if I wanted to search again, which I declined, and the code stopped properly
+Trying to Find Errors
+Step 1: Started program, entered “https://books.toscrape.c” (Misspelled to cause an error)
+Step 2: Asked what book I wanted to search for, and misspelled it too
+Step 3: The code stopped and didn't find a website named “https://books.toscrape.c”, then asked if I wanted to start again and enter a different address
+Trying to Find Errors
+Step 1: Started program, entered “https://books.toscrape.com/” 
+Step 2: Entered the book called “Aic”
+Step 3: The program came back with nothing; the code needs to be updated
